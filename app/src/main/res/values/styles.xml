@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools = "http://schemas.android.com/tools">
 	
 	<!-- Base application theme. -->
 	<style name = "AppTheme" parent = "Theme.AppCompat.Light.DarkActionBar">
@@ -6,6 +6,81 @@
 		<item name = "colorPrimary">@color/colorPrimary</item>
 		<item name = "colorPrimaryDark">@color/colorPrimaryDark</item>
 		<item name = "colorAccent">@color/colorAccent</item>
+	
+	</style>
+	
+	<style name = "HeaderTextView">
+		<item name = "android:layout_width">match_parent</item>
+		<item name = "android:layout_height">match_parent</item>
+		<item name = "android:fontFamily" tools:targetApi = "jelly_bean">cursive</item>
+		<item name = "android:padding">5dp</item>
+		<item name = "android:textColor">#02B3E4</item>
+		<item name = "android:textSize">30sp</item>
+		<item name = "android:textStyle">bold</item>
+	
+	</style>
+	
+	<style name = "MiddleLinearLayout">
+		<item name = "android:layout_width">match_parent</item>
+		<item name = "android:layout_height">0dp</item>
+		<item name = "android:layout_weight">1</item>
+	
+	</style>
+	
+	<style name = "MiddleImageView">
+		<item name = "android:layout_width">0dp</item>
+		<item name = "android:layout_height">match_parent</item>
+		<item name = "android:layout_weight">1</item>
+		<item name = "android:padding">10dp</item>
+		<item name = "android:scaleType">centerInside</item>
+		<item name = "android:tint">#02B3E4</item>
+	
+	</style>
+	
+	<style name = "MiddleTextView">
+		<item name = "android:layout_width">0dp</item>
+		<item name = "android:layout_height">match_parent</item>
+		<item name = "android:layout_weight">5</item>
+		<item name = "android:layout_marginLeft">5dp</item>
+		<item name = "android:gravity">center_vertical</item>
+		<item name = "android:padding">2dp</item>
+		<item name = "android:textColor">@android:color/white</item>
+		<item name = "android:textStyle">bold</item>
+	
+	</style>
+	
+	<style name = "FooterTextView">
+		<item name = "android:gravity">center</item>
+		<item name = "android:textColor">#2C3C49</item>
+		<item name = "android:textStyle">bold</item>
+		<item name = "android:textAllCaps">true</item>
+	
+	</style>
+	
+	<style name = "BottomFooterLinearLayout">
+		<item name = "android:layout_width">0dp</item>
+		<item name = "android:layout_height">match_parent</item>
+		<item name = "android:layout_weight">1</item>
+		<item name = "android:orientation">vertical</item>
+	
+	</style>
+	
+	<style name = "BottomFooterImageView">
+		<item name = "android:layout_width">match_parent</item>
+		<item name = "android:layout_height">0dp</item>
+		<item name = "android:layout_weight">7</item>
+		<item name = "android:scaleType">centerInside</item>
+	
+	</style>
+	
+	<style name = "BottomFooterTextView">
+		<item name = "android:layout_width">match_parent</item>
+		<item name = "android:layout_height">0dp</item>
+		<item name = "android:layout_weight">4</item>
+		<item name = "android:gravity">center</item>
+		<item name = "android:textColor">#2C3C49</item>
+		<item name = "android:textStyle">bold</item>
+	
 	</style>
 
 </resources>
