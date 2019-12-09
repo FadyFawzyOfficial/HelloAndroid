@@ -5,6 +5,252 @@
 	xmlns:tools = "http://schemas.android.com/tools"
 	android:layout_width = "match_parent"
 	android:layout_height = "match_parent"
+	android:orientation = "vertical"
 	tools:context = ".MainActivity">
+	
+	<!-- Header ViewGroup -->
+	<RelativeLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		android:layout_weight = "20">
+	
+	</RelativeLayout>
+	
+	<!-- Middle and Footer ViewGroup -->
+	<LinearLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		android:layout_weight = "45"
+		android:orientation = "vertical">
+		
+		<!-- Middle ViewGroup and Contact Information -->
+		<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "0dp"
+			android:layout_weight = "30"
+			android:background = "#2C3C49">
+			
+			<ImageView
+				android:layout_width = "0dp"
+				android:layout_height = "match_parent"
+				android:layout_weight = "1"
+				android:scaleType = "centerCrop" />
+			
+			<!-- All Information ViewGroup -->
+			<LinearLayout
+				android:layout_width = "0dp"
+				android:layout_height = "match_parent"
+				android:layout_weight = "6"
+				android:orientation = "vertical">
+				
+				<!-- About Udacity ViewGroup -->
+				<LinearLayout
+					android:layout_width = "match_parent"
+					android:layout_height = "0dp"
+					android:layout_weight = "1">
+					
+					<ImageView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "1" />
+					
+					<TextView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "5" />
+				
+				</LinearLayout>
+				
+				<!-- Udacity Phone ViewGroup -->
+				<LinearLayout
+					android:layout_width = "match_parent"
+					android:layout_height = "0dp"
+					android:layout_weight = "1">
+					
+					<ImageView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "1" />
+					
+					<TextView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "5" />
+				
+				</LinearLayout>
+				
+				<!-- Udacity Support ViewGroup -->
+				<LinearLayout
+					android:layout_width = "match_parent"
+					android:layout_height = "0dp"
+					android:layout_weight = "1">
+					
+					<ImageView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "1" />
+					
+					<TextView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "5" />
+				
+				</LinearLayout>
+				
+				<!-- Udacity Website ViewGroup -->
+				<LinearLayout
+					android:layout_width = "match_parent"
+					android:layout_height = "0dp"
+					android:layout_weight = "1">
+					
+					<ImageView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "1" />
+					
+					<TextView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "5" />
+				
+				</LinearLayout>
+				
+				<!-- Udacity Address ViewGroup -->
+				<LinearLayout
+					android:layout_width = "match_parent"
+					android:layout_height = "0dp"
+					android:layout_weight = "1">
+					
+					<ImageView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "1" />
+					
+					<TextView
+						android:layout_width = "0dp"
+						android:layout_height = "match_parent"
+						android:layout_weight = "5" />
+				
+				</LinearLayout>
+			
+			</LinearLayout>
+		
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "0dp"
+			android:layout_weight = "15"
+			android:background = "#DAE1E7"
+			android:orientation = "vertical">
+			
+			<TextView
+				android:layout_width = "match_parent"
+				android:layout_height = "0dp"
+				android:layout_weight = "2"
+				android:background = "#02CCBA" />
+			
+			<LinearLayout
+				android:layout_width = "match_parent"
+				android:layout_height = "0dp"
+				android:layout_weight = "2">
+				
+				<TextView
+					android:layout_width = "0dp"
+					android:layout_height = "match_parent"
+					android:layout_weight = "1"
+					android:background = "#15C26B" />
+				
+				<TextView
+					android:layout_width = "0dp"
+					android:layout_height = "match_parent"
+					android:layout_weight = "1"
+					android:background = "#02B3E4" />
+			
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_width = "match_parent"
+				android:layout_height = "0dp"
+				android:layout_weight = "11"
+				android:background = "#DAE1E7">
+				
+				<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_height = "match_parent"
+					android:layout_weight = "1"
+					android:orientation = "vertical">
+					
+					<ImageView
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "7" />
+					
+					<TextView
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "4" />
+				
+				</LinearLayout>
+				
+				<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_height = "match_parent"
+					android:layout_weight = "1"
+					android:orientation = "vertical">
+					
+					<ImageView
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "7" />
+					
+					<TextView
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "4" />
+				
+				</LinearLayout>
+				
+				<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_height = "match_parent"
+					android:layout_weight = "1"
+					android:orientation = "vertical">
+					
+					<ImageView
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "7" />
+					
+					<TextView
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "4" />
+				
+				</LinearLayout>
+				
+				<LinearLayout
+					android:layout_width = "0dp"
+					android:layout_height = "match_parent"
+					android:layout_weight = "1"
+					android:orientation = "vertical">
+					
+					<ImageView
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "7" />
+					
+					<TextView
+						android:layout_width = "match_parent"
+						android:layout_height = "0dp"
+						android:layout_weight = "4" />
+				
+				</LinearLayout>
+			
+			</LinearLayout>
+		
+		</LinearLayout>
+	
+	</LinearLayout>
 
 </LinearLayout>
